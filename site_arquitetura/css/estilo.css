@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7a553f;
+}
+
+nav {
+    background-color: #242424;
+    padding: 1%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E3D0BC;
+    font-size: 2.5rem;
+    margin: 5%;
+}
+
+main {
+    width: 60%;
+    background-color: #291c13;
+    margin: auto;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+    color: #E3D0BC;
+    text-align: center;
+}
+
+section a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #291c13;
+    background-color: #CDA172;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+section a:hover {
+    background-color: #CCB18D;
+    transition: 0.5s;
+}
+
+article p {
+    font-size: 1.3rem;
+    margin: 3%;
+}
+
+footer {
+    background-color: #573c28;
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+}
+
+.botao-voltar {
+    text-decoration: none;
+    color: #E3D0BC;
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    z-index: 3;
+}
+
+.subtitulo {
+    font-size: 4rem;
+}
