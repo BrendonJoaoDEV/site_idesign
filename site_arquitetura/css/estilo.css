@@ -8,6 +8,11 @@ body {
     background-color: #7a553f;
 }
 
+header img {
+    width: 100%;
+    overflow: hidden;
+}
+
 nav {
     background-color: #242424;
     padding: 1%;
@@ -18,13 +23,13 @@ nav a {
     text-decoration: none;
     color: #E3D0BC;
     font-size: 2.5rem;
-    margin: 5%;
 }
 
 main {
     width: 60%;
     background-color: #291c13;
     margin: auto;
+    gap: 5%;
 }
 
 section {
@@ -72,4 +77,52 @@ footer {
 
 .subtitulo {
     font-size: 4rem;
+    color: #E3D0BC;
+    text-align: center;
+}
+
+.imagens-horizontais {
+    display: flex;
+    justify-content: center;
+
+}
+
+.imagens-horizontais img {
+    width: 50%;
+    object-fit: cover;
+    margin: 2%;
+}
+
+.float-left {
+    display: flex;
+}
+
+.float-left img {
+    float: left;
+    width: 50%;
+    object-fit: cover;
+    margin: 2% 0% 2% 5%;
+}
+
+.float-left article p {
+    width: 100%;
+}
+
+.float-right {
+    display: flex;
+}
+
+.float-right img {
+    float: right;
+    width: 50%;
+    object-fit: cover;
+    margin: 2% 5% 2% 0%;
+}
+
+.float-right article p {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
 }
