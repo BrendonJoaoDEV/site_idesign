@@ -8,9 +8,22 @@ body {
     background-color: #7a553f;
 }
 
-header img {
+header {
     width: 100%;
+    height: 1000px;
     overflow: hidden;
+    display: block;
+    background-image: url("/site_arquitetura/img/estacao.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    
+    color: #0f0f0f;
+    font-size: 10rem;
+    text-align: center;
+    margin: 100px;
 }
 
 nav {
@@ -23,6 +36,7 @@ nav a {
     text-decoration: none;
     color: #E3D0BC;
     font-size: 2.5rem;
+    margin: 3%;
 }
 
 main {
@@ -33,7 +47,7 @@ main {
 }
 
 section {
-    width: 50%;
+    width: 60%;
     margin: auto;
     color: #E3D0BC;
     text-align: center;
@@ -58,11 +72,24 @@ article p {
     margin: 3%;
 }
 
+label {
+    font-size: 1.5rem;
+}
+
+input, select, textarea {
+    width: 100%;
+    background-color: #cda172;
+    color: #291c13;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
 footer {
     background-color: #573c28;
     width: 100%;
-    padding: 3%;
+    padding: 2%;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .botao-voltar {
@@ -101,7 +128,7 @@ footer {
     float: left;
     width: 50%;
     object-fit: cover;
-    margin: 2% 0% 2% 5%;
+    margin: 2% 5% 2% 0%;
 }
 
 .float-left article p {
@@ -116,7 +143,7 @@ footer {
     float: right;
     width: 50%;
     object-fit: cover;
-    margin: 2% 5% 2% 0%;
+    margin: 2% 0% 2% 5%;
 }
 
 .float-right article p {
@@ -125,4 +152,35 @@ footer {
 
 .clear {
     clear: both;
+}
+
+.form-container {
+    background-color: #3f352c;
+    margin-bottom:2%;
+    padding: 2% 5% 2% 5%;
+    line-height: 1.5;
+}
+
+.form-container button {
+    font-size: 1.5rem;
+    color: #291c13;
+    background-color: #CDA172;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.info-container {
+    display: flex;
+    gap: 5%;
+}
+
+.info-container article {
+    text-align: center;
+    width: 100%;
+}
+
+.info-container iframe {
+    width: 100%;
+    border-radius: 5px;
+    margin: 2%;
 }

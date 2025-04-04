@@ -15,19 +15,43 @@
       <a href="clientes.html">Clientes</a>
       <a href="contato.html">Contato</a>
     </nav>
-    <header><img src="img/estacao.jpg" alt="" class="banner" /></header>
+    <header>
+      <h1>I-Design</h1>
+      <h1>Arquitetura Industrial</h1>
+    </header>
     <main>
       <section>
-        <h3 class="subtitulo">Formulário de contato</h3>
-        <article>
-          
-          <form action=""></form>
+        
+        <article class="form-container">
+          <h3 class="subtitulo">Formulário de contato</h3>
+          <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="exemplo@dominio.com" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+            
+            <label for="cidade">Cidade</label>
+            <select name="cidade" id="cidade">
+              <option value="jf">Juiz de Fora</option>
+              <option value="bh">Belo Horizonte</option>
+              <option value="sp">São Paulo</option>
+              <option value="rj">Rio de Janeiro</option>
+            </select>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+          </form>
+          <button type="submit">Enviar</button>
         </article>
       </section>
-      <section>
+      <section class="info-container">
         <article>
           <h3 class="subtitulo">Mapa</h3>
-          <a href="" id="google-maps"></a>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14822.201089987004!2d-43.35718963312229!3d-21.758954152322964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x989ca1bcf58a1d%3A0x61a407556188a86c!2sCentro%2C%20Juiz%20de%20Fora%20-%20MG!5e0!3m2!1spt-PT!2sbr!4v1743720874493!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </article>
         <article>
           <h3 class="subtitulo">Informações</h3>
@@ -47,10 +71,6 @@
     </main>
     <footer>
       <p>&copy; Todos os direitos reservados</p>
-      <p>Entre em contato conosco</p>
-      <a href="contato.html">Nome</a>
-      <a href="contato.html">Email</a>
-      <a href="contato.html">Telefone</a>
     </footer>
   </body>
 </html>
