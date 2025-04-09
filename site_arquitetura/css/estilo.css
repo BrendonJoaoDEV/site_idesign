@@ -1,3 +1,4 @@
+/* Geral */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #7a553f;
 }
 
+/* Cabeçalho */
 header {
     width: 100%;
     height: 600px;
@@ -26,9 +28,9 @@ header h1 {
     margin: 10%;
 }
 
+/* Navegação */
 nav {
-    background-color: #242424;
-    padding: 1%;
+    padding: 1.5%;
     text-align: center;
 }
 
@@ -36,31 +38,37 @@ nav a {
     text-decoration: none;
     color: #E3D0BC;
     font-size: 2.5rem;
-    margin: 3%;
+    margin: 3.5%;
 }
 
+/* Principal */
 main {
     width: 60%;
     background-color: #291c13;
     margin: auto;
-    gap: 5%;
 }
 
 section {
-    width: 60%;
+    width: 90%;
     margin: auto;
     color: #E3D0BC;
+    align-items: center;
+}
+
+article {
+    padding: 3%;
 }
 
 article p {
-    font-size: 1.3rem;
-    margin: 3%;
-}
-span a {
-    text-decoration: none;
-    color: #E3D0BC;
+    font-size: 1.7rem;
 }
 
+span a {
+    text-decoration: none;
+    color: #cda172;
+}
+
+/* Estrutura do Formulário */
 label {
     font-size: 1.5rem;
 }
@@ -73,6 +81,7 @@ input, select, textarea {
     font-size: 1.2rem;
 }
 
+/* Rodapé */
 footer {
     background-color: #573c28;
     width: 100%;
@@ -81,6 +90,7 @@ footer {
     font-size: 1.5rem;
 }
 
+/* Botão para voltar ao topo */
 .botao-voltar {
     text-decoration: none;
     color: #E3D0BC;
@@ -91,18 +101,47 @@ footer {
     z-index: 3;
 }
 
+/* Formatação de textos */
 .titulo {
     font-size: 4rem;
     color: #E3D0BC;
     text-align: center;
+    margin: 2%;
 }
 
 .subtitulo {
     font-size: 2rem;
     color: #E3D0BC;
     text-align: center;
+    text-decoration: ;
 }
 
+/* Imagens do Home */
+.imagem-redonda {
+    border-radius: 50% !important;
+    width: 100%;
+    height: 500px;
+}
+
+/* Sobre */
+.colunas-conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.coluna {
+    width: 100%;
+    margin: 1% 0.5% 2% 0.5%;
+}
+
+.coluna img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 1%;
+}
+
+/* Imagens do portfólio */
 .imagens-horizontais {
     display: flex;
     justify-content: center;
@@ -110,16 +149,13 @@ footer {
 
 .imagens-horizontais img {
     object-fit: cover;
-    width: 50%;
-    margin: 2%;
+    width: 33%;
+    padding-bottom: 1%;
+    margin: 1% 1% 2% 1%;
     border-radius: 1%;
 }
 
-
-.imagem-redonda {
-    border-radius: 50% !important;
-}
-
+/* Fluxo float */
 .float-left {
     display: flex;
 }
@@ -158,8 +194,7 @@ footer {
     clear: both;
 }
 
-
-
+/* Formulário */
 .form-container {
     background-color: #3f352c;
     margin-bottom:2%;
@@ -175,6 +210,7 @@ footer {
     border-radius: 5px;
 }
 
+/* Informaões Contato */
 .info-container {
     display: flex;
     gap: 5%;
@@ -191,12 +227,12 @@ footer {
     margin: 2%;
 }
 
-/* Arrumar */
-/* .tarja-banner {
+/* Banner */
+.tarja-banner {
     width: 100%;
     background-color: #090907;
     opacity: 0.7;
-} */
+}
 
 #banner-home {
     height: 1000px;
